@@ -1,6 +1,5 @@
 
 type Mods = Record<string, string | boolean>;
-
 interface ClassNames{
     (cls: string, mods: Mods, additional: string[]) : string
 }
