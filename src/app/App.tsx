@@ -6,15 +6,18 @@ import { useTheme } from './providers/ThemeProvider';
 
 import "./styles/index.scss";
 import { Navbar } from 'widgets/Navbar';
+import { Sidebar } from 'widgets/Sidebar';
 
 const App = () => {
-    const {theme, toggleTheme} = useTheme();
+    const {theme} = useTheme();
 
     return (
         <div className={classNames('app', {}, [theme])}>
             <Navbar/>
-            <button onClick={toggleTheme}>Toggle Theme</button>
-            <AppRouter/>
+            <div className="content-page">
+                <Sidebar/>
+                <AppRouter/>
+            </div>
         </div>
   )
 }

@@ -1,7 +1,7 @@
-@import "./reset.scss";
-@import "./variables/global.scss";
-@import "./themes/light.scss";
-@import "./themes/dark";
+@import "reset";
+@import "variables/global";
+@import "themes/light";
+@import "themes/dark";
 
 .app{
     font: var(--font-m);
@@ -15,4 +15,12 @@
     // padding: 10px;
     // border: solid 2px green;
     // border-radius: 5px;
+}
+
+.content-page {
+    display: flex;
+}
+
+.page-wrapper {
+    flex-grow: 1;
 }
