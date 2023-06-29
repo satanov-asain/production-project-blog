@@ -1,2 +1,2 @@
-export {AppRoutes} from './AppRoutes';
-export {RoutesPath} from './RoutesPath';
+export { AppRoutes } from './AppRoutes';
+export { RoutesPath } from './RoutesPath';

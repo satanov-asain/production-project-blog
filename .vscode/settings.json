@@ -3,5 +3,12 @@
         "public/locales",
         "src/shared/config/i18n"
     ],
-    "i18n-ally.keystyle": "flat"
+    "i18n-ally.keystyle": "flat",
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    // "eslint.codeActionsOnSave.rules": null,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "eslint.validate": ["javascript"]
 }
