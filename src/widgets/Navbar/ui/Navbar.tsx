@@ -1,6 +1,5 @@
 import React, { FC } from 'react';
 import { classNames } from 'shared/lib/classNames';
-import { Link } from 'react-router-dom';
 import { AppLink, AppLinkTheme } from 'shared/ui/AppLink';
 import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
 import { useTranslation } from 'react-i18next';
