@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { AppRouter } from 'app/providers/Router';
-import { classNames } from 'shared/lib/classNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
