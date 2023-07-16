@@ -4,5 +4,8 @@
   "Main": "Главная",
   "About Site": "О сайте",
   "Toggle": "Переключить",
-  "Not Found": "Не найдено"
+  "Not Found": "Не найдено",
+  "Unexpected mistake occured": "Произошла непредвиденная ошибка",
+  "Reload page": "Перезагрузить страницу",
+  "throw error on page": "выбросить ошибку на странице"
 }

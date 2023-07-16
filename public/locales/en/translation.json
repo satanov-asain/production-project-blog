@@ -4,5 +4,8 @@
   "Main": "Main",
   "About Site": "About Site",
   "Toggle": "Toggle",
-  "Not Found": "Not Found"
+  "Not Found": "Not Found",
+  "Unexpected mistake occured": "Unexpected mistake occured",
+  "Reload page": "Reload page",
+  "throw error on page": "throw error on page"
 }
